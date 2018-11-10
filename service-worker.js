@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/marklai1998/cs2115-dots-and-boxes-game/precache-manifest.1d5adc93570f804709a590d6857882b7.js"
+  "/cs2115-dots-and-boxes-game/precache-manifest.3f422acf3ed241f23630bc50ec7216ca.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/marklai1998/cs2115-dots-and-boxes-game/index.html", {
+workbox.routing.registerNavigationRoute("/cs2115-dots-and-boxes-game/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
