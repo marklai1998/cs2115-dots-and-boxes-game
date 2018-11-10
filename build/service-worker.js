@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/cs2115-dots-and-boxes-game/precache-manifest.52d80d99bc27ce75e6522224274d31a0.js"
+  "/cs2115-dots-and-boxes-game/precache-manifest.b17b51322e69d597370a7a7e3e3cfa2e.js"
 );
 
 workbox.clientsClaim();
