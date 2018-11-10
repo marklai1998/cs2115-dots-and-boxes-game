@@ -12,19 +12,19 @@ self.__precacheManifest = [
     "url": "/cs2115-dots-and-boxes-game/static/js/runtime~main.33389c4b.js"
   },
   {
-    "revision": "2aa034bbd399d0b908e2",
-    "url": "/cs2115-dots-and-boxes-game/static/js/main.2aa034bb.chunk.js"
+    "revision": "3d53762b1d9ada1a7aa7",
+    "url": "/cs2115-dots-and-boxes-game/static/js/main.3d53762b.chunk.js"
   },
   {
     "revision": "508198c3d744cc556579",
     "url": "/cs2115-dots-and-boxes-game/static/js/1.508198c3.chunk.js"
   },
   {
-    "revision": "2aa034bbd399d0b908e2",
-    "url": "/cs2115-dots-and-boxes-game/static/css/main.a638f43e.chunk.css"
+    "revision": "3d53762b1d9ada1a7aa7",
+    "url": "/cs2115-dots-and-boxes-game/static/css/main.9ab1e3f0.chunk.css"
   },
   {
-    "revision": "8d5a678cb87432bab954db1a8ee8dd64",
+    "revision": "19471e07188103cf1f8da7048003d10a",
     "url": "/cs2115-dots-and-boxes-game/index.html"
   }
 ];
