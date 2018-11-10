@@ -1,0 +1,43 @@
+.score-board {
+  width: 330px;
+  background-color: #2d3034;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.score-board .score {
+  font-size: 25px;
+  min-width: 50px;
+}
+
+.score-board .score.B {
+  color: #1565C0;
+}
+
+.score-board .score.R {
+  color: #F50057;
+  text-align: end;
+}
+
+.reset {
+  background-color: unset;
+  padding-top: 2px;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  color: #e6e6e6;
+  cursor: pointer;
+  border: 0;
+  transition: 0.5s;
+}
+
+.reset:hover {
+  background-color: rgba(0, 0, 0, 0.301)
+}
+
+.reset:focus {
+  outline: none;
+}

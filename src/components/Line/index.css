@@ -1,0 +1,46 @@
+.line {
+  display: inline-block;
+  position: relative;
+  width: 5px;
+  height: 30px;
+  transition: 0.3s;
+}
+
+.line.B {
+  background-color: #1565C0;
+}
+
+.line.R {
+  background-color: #F50057;
+}
+
+.line .trigger {
+  position: absolute;
+  width: 10px;
+  height: 30px;
+  right: -4px;
+}
+
+.line.even {
+  display: inline-block;
+  width: 30px;
+  height: 5px;
+}
+
+.line.even .trigger {
+  position: absolute;
+  width: 30px;
+  height: 10px;
+  left: 0;
+  top: -4px;
+}
+
+.line.N.current-B:hover {
+  background-color: #1565C0;
+  cursor: pointer;
+}
+
+.line.N.current-R:hover {
+  background-color: #F50057;
+  cursor: pointer;
+}

@@ -1,0 +1,14 @@
+.box {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  transition: 0.5s;
+}
+
+.box.B {
+  background-color: #0D47A1;
+}
+
+.box.R {
+  background-color: #C51162;
+}
