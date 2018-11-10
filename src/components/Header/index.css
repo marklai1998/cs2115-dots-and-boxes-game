@@ -1,8 +1,8 @@
 .header {
   background-color: #242424;
   height: 50px;
-  transition: 0.5s;
   flex-shrink: 0;
+  display: flex;
 }
 
 .logo {
@@ -20,6 +20,8 @@
   font-size: 20px;
   padding-left: 15px;
   font-weight: bold;
+  width: 100%;
+  overflow: hidden;
 }
 
 .ghLogo {
