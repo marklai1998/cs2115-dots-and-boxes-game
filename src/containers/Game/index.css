@@ -6,4 +6,12 @@
   justify-content: center;
   align-items: center;
   overflow: auto;
+  position: relative;
+}
+
+.collapse-btn {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  cursor: pointer;
 }

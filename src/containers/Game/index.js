@@ -13,8 +13,11 @@ import { WinBox } from '../../components/WinBox'
 import { checkWinner } from '../../utils/checkWinner'
 
 const InitialState = {
+  size: 10,
   current: player.B,
-  board: initBoard(10),
+  get board () {
+    return initBoard(this.size)
+  },
   winner: null,
   [player.B]: 0,
   [player.R]: 0
@@ -28,9 +31,12 @@ export class Game extends React.PureComponent {
     const boardWithComplete = checkComplete(newBoard, this.state.current)
     const newScore = checkScore(boardWithComplete)
     const winner = checkWinner(newScore)
+    const current = newScore.B !== this.state.B || newScore.R !== this.state.R
+      ? this.state.current
+      : this.state.current === player.B ? player.R : player.B
     this.setState({
       board: boardWithComplete,
-      current: this.state.current === player.B ? player.R : player.B,
+      current,
       winner,
       ...newScore
     })
