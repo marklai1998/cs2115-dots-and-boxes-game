@@ -34,6 +34,7 @@ export class Game extends React.PureComponent {
     const current = newScore.B !== this.state.B || newScore.R !== this.state.R
       ? this.state.current
       : this.state.current === player.B ? player.R : player.B
+    console.info(boardWithComplete)
     this.setState({
       board: boardWithComplete,
       current,
