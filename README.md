@@ -1,7 +1,7 @@
 # CS2115 Dots and Boxes Game
 
 ## Introduction
-This repository is created for `City University HK` course `CS2115 - Computer Organization` Assignment 3 bonus part <br />
+This repository is created for `City University HK` course `CS2115 - Computer Organization` assignment 3 bonus part <br />
 All credit goes to: Mark Lai
 
 ## Assignment Requirement
