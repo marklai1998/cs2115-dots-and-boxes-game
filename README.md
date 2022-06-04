@@ -1,5 +1,7 @@
 # CS2115 Dots and Boxes Game
 
+![Build](https://github.com/marklai1998/cs2115-dots-and-boxes-game/actions/workflows/main.yml/badge.svg)
+
 ## Introduction
 This repository is created for `City University HK` course `CS2115 - Computer Organization` assignment 3 bonus part <br />
 All credit goes to: Mark Lai
@@ -22,3 +24,5 @@ $ npm start
 
 ## Tools
 This project was bootstrapped with [Vite](https://vitejs.dev/).
+
+This project is written in [TypeScript](https://www.typescriptlang.org/) with complete definitions.
