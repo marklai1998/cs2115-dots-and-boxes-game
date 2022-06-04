@@ -7,7 +7,8 @@
   "scripts": {
     "start": "vite",
     "build": "vite build",
-    "postbuild": "precompress dist"
+    "postbuild": "precompress dist",
+    "test": ""
   },
   "dependencies": {
     "ramda": "0.28.0",
