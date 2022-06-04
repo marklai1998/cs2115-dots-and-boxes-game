@@ -24,5 +24,3 @@ $ npm start
 
 ## Tools
 This project was bootstrapped with [Vite](https://vitejs.dev/).
-
-This project is written in [TypeScript](https://www.typescriptlang.org/) with complete definitions.
