@@ -20,5 +20,5 @@ $ npm install
 $ npm start
 ```
 
-## Library Used
+## Tools
 This project was bootstrapped with [Vite](https://vitejs.dev/).
