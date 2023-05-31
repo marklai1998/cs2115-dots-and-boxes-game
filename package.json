@@ -8,17 +8,24 @@
     "start": "vite",
     "build": "vite build",
     "postbuild": "precompress dist",
-    "test": ""
+    "test": "",
+    "tsc": "tsc"
   },
   "dependencies": {
+    "@emotion/react": "11.11.0",
+    "@emotion/styled": "11.11.0",
     "ramda": "0.29.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@types/ramda": "^0.29.2",
+    "@types/react": "^18.2.7",
+    "@types/react-dom": "^18.2.4",
     "@vitejs/plugin-react": "4.0.0",
-    "precompress": "11.2.0",
+    "precompress": "11.2.1",
     "prettier": "2.8.8",
+    "typescript": "^5.0.4",
     "vite": "4.3.9"
   }
 }
