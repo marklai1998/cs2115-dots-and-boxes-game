@@ -7,5 +7,5 @@ export const initBoard = (size: number) =>
     const row = range(0, size * 2 + 1)
     return isOddRow
       ? row.map(() => BoardState.N)
-      : row.map((value, index) => (index % 2 ? BoardState.N : BoardState.O))
+      : row.map((_, index) => (index % 2 ? BoardState.N : BoardState.O))
   })
