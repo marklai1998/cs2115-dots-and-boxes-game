@@ -4,6 +4,9 @@
   "author": "Mark Lai",
   "license": "MIT",
   "homepage": "https://github.com/cs2115-dots-and-boxes-game",
+  "engines": {
+    "node": "^18"
+  },
   "scripts": {
     "start": "vite",
     "build": "vite build",
