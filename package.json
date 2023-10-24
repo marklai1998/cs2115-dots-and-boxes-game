@@ -5,7 +5,7 @@
   "license": "MIT",
   "homepage": "https://github.com/cs2115-dots-and-boxes-game",
   "engines": {
-    "node": "^18"
+    "node": "^20.0.0"
   },
   "scripts": {
     "start": "vite",
