@@ -12,13 +12,21 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: pnpm/action-setup@v4
+        name: Install pnpm
+
+      - name: Setup node version
+        uses: actions/setup-node@v4
         with:
           node-version-file: '.node-version'
-      - uses: pnpm/action-setup@v2
-        name: Install pnpm
-        with:
-          version: 8
-      - run: pnpm install --frozen-lockfile
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm i --frozen-lockfile
+
       - run: pnpm test
